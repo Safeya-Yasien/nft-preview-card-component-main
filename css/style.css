@@ -123,6 +123,9 @@ main {
 
 .box .info {
   font-size: var(--paragraph-Font-size);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .box .info .info-top {
